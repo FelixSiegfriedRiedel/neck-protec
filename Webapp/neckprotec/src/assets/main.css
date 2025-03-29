@@ -1,0 +1,134 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+.neck-angle-display {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.angle-text {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+div {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto; /* Centers the table horizontally */
+  border-collapse: collapse; /* Optional for cleaner table borders */
+}
+
+img {
+  max-width: 80%;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: background-color 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+  display: block; /* Ensures divs stack vertically by default */
+  border: 2px solid #050505;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1rem;
+}
+
+@media (min-width: 530px) {
+  body {
+    display: block;
+    place-items: center;
+  }
+
+  img {
+    max-width: 60%;
+  }
+
+  #app {
+    margin: 50px;
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    display: block;
+    place-items: center;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  img {
+    max-width: 60%;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+}
